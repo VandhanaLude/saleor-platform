@@ -26,6 +26,7 @@ services:
       - ALLOWED_HOSTS=localhost,api
 
   dashboard:
+    # chenged the port
     image: ghcr.io/saleor/saleor-dashboard:latest
     ports:
       - 9002:9002
